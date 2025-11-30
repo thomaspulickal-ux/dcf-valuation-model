@@ -62,49 +62,6 @@ This repository contains a self-built **DCF valuation** in Excel. It demonstrate
 - **Enterprise Value (EV):** ~ **$268.83m**
 
 > Units are **millions of USD** given the $100m initial revenue base.
-
----
-
-## 🗂️ Repository Contents
-
-- `valuation_model.xlsx` → Main Excel with assumptions, forecast, PV, TV, and EV.
-- `README.md` → You are here.
-
-> Tip: In GitHub, keep the Excel file name clean and descriptive (e.g., `dcf_valuation_model.xlsx`).
-
----
-
-## ✅ What a Reviewer Can Verify Quickly
-
-- Assumptions **flow through** to revenue, EBIT, tax, NOPAT, and FCF.  
-- Discounting is done at **10% WACC** for each year of the 5‑year forecast.  
-- Terminal value uses **Gordon Growth with 3%** and is discounted back to present.  
-- **EV = PV(FCFs) + PV(TV)** checks out.
-
----
-
-## 🔧 How to Use / Recreate
-
-1. Open the Excel file and go to the **Assumptions** block.  
-2. Change growth, margins, taxes, or WACC — the model updates automatically.  
-3. Inspect the **FCF schedule**, **PV schedule**, and **Terminal Value** section.  
-4. Confirm the **Enterprise Value** roll‑up.
-
----
-
-## 📈 Notes & Possible Extensions
-
-- Add **working capital** and **CapEx / Depreciation** schedules.  
-- Layer in **share‑based comp** or **leases** depending on the context.  
-- Add **sensitivity tables** for WACC and terminal growth.  
-- Create a **comps/multiples** cross‑check (EV/EBITDA, P/E).
-
----
-
-## 📬 Contact
-
-If you’re reviewing this model and want to discuss assumptions or realism for a specific industry, feel free to reach out via LinkedIn or email (add your handle here).
-
 ---
 
 ### Attribution
